@@ -8,6 +8,8 @@ import Projects from "./components/Projects";
 import Technologies from "./components/Technologies";
 import { useState } from "react";
 
+
+
 const App = () => {
   const [active, setActive] = useState(false);
 
@@ -21,8 +23,9 @@ const App = () => {
         root.style.setProperty("--mouse-y", `${e.clientY}px`);
       }}
       className="overflow-x-hidden text-neutral-300 antialiased
-     selection:bg-cyan-300 selection:text-cyan-900"
+     selection:bg-rose-600/60 selection:text-white"
       style={{
+        cursor: "var(--cursor-default)",
         background: active
           ? "radial-gradient(circle at var(--mouse-x) var(--mouse-y), rgba(120,150,255,0.18), transparent 40%) "
           : "transparent",

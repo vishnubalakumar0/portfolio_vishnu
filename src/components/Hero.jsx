@@ -10,11 +10,11 @@ const Hero = () => {
           <div className="flex flex-col items-center ml-8 lg:items-start">
             <h1 className="text-6xl font-poppins font-bold leading-tight lg:mb-8">
               Hi, I'm{" "}
-              <span className="bg-linear-to-r from-purple-400 to-blue-500  text-transparent  bg-clip-text">
+              <span className="bg-linear-to-r from-purple-500 to-blue-500  text-transparent  bg-clip-text">
                 Vishnu
               </span>
             </h1>
-            <span className="bg-linear-to-r from-pink-600 via-red-500 to-pink-500 bg-clip-text text-4xl tracking-tight text-transparent mb-3">
+            <span className="bg-linear-to-r from-pink-400 via-red-500 to-pink-400 bg-clip-text text-4xl font-poppins font-bold  tracking-tight text-transparent mb-3">
               Full Stack Developer
             </span>
             <p className="my-2 max-w-xl py-6  text-white font-thin tracking-wide  text-lg">

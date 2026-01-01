@@ -1,9 +1,27 @@
+/* 🎨 Font */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
-
+/* 🌪️ Tailwind v4 */
 @import "tailwindcss";
 
+/* 💡 Cursor + Font */
 :root {
   --font-family: "Inter", sans-serif;
+  --cursor-default: url('/cursor/pointer.cur'), auto;
+  --cursor-link: url('/cursor/link.cur'), pointer;
+  --cursor-text: url('/cursor/select.cur'), text;
+}
+
+html, body {
+  cursor: var(--cursor-default);
+  font-family: var(--font-family);
+}
+
+a, button, .clickable {
+  cursor: var(--cursor-link);
+}
+
+input, textarea, p, span {
+  cursor: var(--cursor-text);
 }
 
