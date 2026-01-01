@@ -6,16 +6,14 @@ import Hero from "./components/Hero";
 import Nav from "./components/Nav";
 import Projects from "./components/Projects";
 import Technologies from "./components/Technologies";
-import  { useState} from "react";
-
-
+import { useState } from "react";
 
 const App = () => {
   const [active, setActive] = useState(false);
 
   return (
     <div
-      onClick={() => setActive(!active) }
+      onClick={() => setActive(!active)}
       onMouseMove={(e) => {
         if (!active) return;
         const root = e.currentTarget;
@@ -25,10 +23,10 @@ const App = () => {
       className="overflow-x-hidden text-neutral-300 antialiased
      selection:bg-cyan-300 selection:text-cyan-900"
       style={{
-        background:active
-         ? "radial-gradient(circle at var(--mouse-x) var(--mouse-y), rgba(120,150,255,0.18), transparent 40%) "
-         : "transparent",
-        }}
+        background: active
+          ? "radial-gradient(circle at var(--mouse-x) var(--mouse-y), rgba(120,150,255,0.18), transparent 40%) "
+          : "transparent",
+      }}
     >
       <div className="fixed top-0 -z-10 h-full w-full">
         <div className="relative h-full w-full bg-slate-950">
@@ -38,12 +36,12 @@ const App = () => {
       </div>
       {active && (
         <div
-        className="pointer-events-none fixed inset-0 -z-10 transition "
-        style={{
-          background:
-            "radial-gradient(circle at var(--mouse-x) var(--mouse-y), rgba(110,10,255,0.22), rgba(0,0,0,0) 40%)",
-        }}
-      />
+          className="pointer-events-none fixed inset-0 -z-10 transition "
+          style={{
+            background:
+              "radial-gradient(circle at var(--mouse-x) var(--mouse-y), rgba(110,10,255,0.22), rgba(0,0,0,0) 40%)",
+          }}
+        />
       )}
       <div className="container mx-auto px-8">
         <Nav />
