@@ -1,10 +1,9 @@
-import { span } from "motion/react-client";
 import { PROJECTS } from "../constants";
 
 const Projects = () => {
   return (
     <div className="border-b border-neutral-900 pb-4">
-      <h1 className="my-20 text-center text-4xl">Project</h1>
+      <h1 className="my-20 text-center text-4xl">Projects</h1>
       <div>
         {PROJECTS.map((projects, index) => (
           <div key={index} className="mb-8 flex flex-wrap lg:justify-center">
@@ -22,7 +21,7 @@ const Projects = () => {
               <p className="mb-4 text-neutral-400"> {projects.description}</p>
               {projects.technologies.map((tech, index) => (
                 <span
-                  className="mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-900"
+                  className="mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-red-900"
                   key={index}
                 >
                   {tech}
