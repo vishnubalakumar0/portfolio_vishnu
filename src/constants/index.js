@@ -73,9 +73,9 @@ export const PROJECTS = [
 ];
 
 export const CONTACT = {
-  address: "767 Fifth Avenue, New York, NY 10153 ",
+  address: "Coimbatore, Tamil Nadu, India",
   phoneNo: "+12 4555 666 00 ",
-  email: "me@example.com",
+  email: "vishnub9842@gmail.com",
 };
 
 export const CERTIFICATE = [

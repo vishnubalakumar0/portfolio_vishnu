@@ -21,7 +21,7 @@ const Projects = () => {
               <p className="mb-4 text-neutral-400"> {projects.description}</p>
               {projects.technologies.map((tech, index) => (
                 <span
-                  className="mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-red-900"
+                  className="mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-red-700"
                   key={index}
                 >
                   {tech}
