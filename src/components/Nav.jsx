@@ -22,7 +22,7 @@ const Nav = () => {
             transition={{ duration: 0.20 }}
             className="cursor-pointer p-px"
           >
-            <FaLinkedin className="text-2xl hover:text-blue-500" />
+            <FaLinkedin className="text-2xl hover:text-blue-500 pointer-events-auto " />
           </motion.div>
         </a>
 
