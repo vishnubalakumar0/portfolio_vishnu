@@ -8,14 +8,13 @@ import {
   SiTableau,
   SiJupyter,
 } from "react-icons/si";
-import { TbSql } from "react-icons/tb";
 import powerbiicon from "../assets/powerbi.svg";
 
 const Technologies = () => {
   return (
     <div className="border-b border-neutral-900 pb-24">
-      <h1 className="my-20 text-center text-4xl ">Technologies</h1>
-      <div className="flex flex-wrap items-center justify-center gap-4">
+      <h1 className="my-20 text-center  tracking-tight text-4xl    "    >Technologies</h1>
+      <div className="flex flex-wrap items-center justify-center gap-4  ">
         <div className="rounded-2xl border-4 border-neutral-800 p-4">
           <RiReactjsLine className="text-7xl text-cyan-400" />
         </div>
@@ -44,7 +43,7 @@ const Technologies = () => {
           <img
             src={powerbiicon}
             alt="Power BI"
-            className="w-20 h-20"
+            className="w-18 h-18"
             draggable="false"
           />
         </div>

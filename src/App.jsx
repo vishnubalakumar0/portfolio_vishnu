@@ -8,11 +8,10 @@ import Projects from "./components/Projects";
 import Technologies from "./components/Technologies";
 import { useState } from "react";
 
-
-
 const App = () => {
   const [active, setActive] = useState(false);
 
+ 
   return (
     <div
       onClick={() => setActive(!active)}

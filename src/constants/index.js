@@ -7,7 +7,7 @@ import project4 from "../assets/projects/Project4.png";
 export const HERO_CONTENT = `Fueled by continuous learning and technical craftsmanship, I'm a full stack developer focused on building smooth, stable, and intuitive web applications with React, Tailwind CSS, JavaScript, Node.js, and databases like MySQL, PostgreSQL, and MongoDB. I also work with data science tools like Python, Power BI, and Tableau to turn data into insights that guide smarter decisions.
 `;
 
-export const ABOUT_TEXT = `I started with a curiosity about how websites work, and that curiosity evolved into a solid foundation in full stack development. Today, I build smooth and scalable web applications using React, Tailwind CSS, JavaScript, Node.js, and databases like MySQL, PostgreSQL, and MongoDB — always aiming for a clean user experience backed by reliable engineering. My journey also led me into data science, where I work with Python, Pandas, NumPy, Power BI, and Tableau to analyze information, uncover patterns, and turn raw data into meaningful insights that support confident decision-making.
+export const ABOUT_TEXT = `I started with a curiosity about how websites work, and that curiosity evolved into a solid foundation in full stack development. Today, I build smooth and scalable web applications using React, Tailwind CSS, JavaScript, Node.js, and databases like MySQL, PostgreSQL, and MongoDB - always aiming for a clean user experience backed by reliable engineering. My journey also led me into data science, where I work with Python, Pandas, NumPy, Power BI, and Tableau to analyze information, uncover patterns, and turn raw data into meaningful insights that support confident decision-making.
 `;
 
 export const EDUCATION = [

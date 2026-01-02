@@ -4,10 +4,10 @@ import { motion } from "motion/react";
 
 const Hero = () => {
   return (
-    <div className="border-b border-neutral-900 pb-4 lg:mb-35">
-      <div className="flex flex-wrap">
+    <div className="border-b border-neutral-900 pb-4 lg:mb-35 ">
+      <div className="flex flex-col-reverse lg:flex-row items-center">
         <div className="w-full lg:w-1/2 ">
-          <div className="flex flex-col items-center ml-8 lg:items-start">
+          <div className="flex flex-col items-center lg:items-start px-6 lg:px-8 ">
             <h1 className="text-6xl font-poppins font-bold leading-tight lg:mb-8">
               Hi, I'm{" "}
               <span className="bg-linear-to-r from-purple-500 to-blue-500  text-transparent  bg-clip-text">
@@ -17,7 +17,7 @@ const Hero = () => {
             <span className="bg-linear-to-r from-pink-400 via-red-500 to-pink-400 bg-clip-text text-4xl font-poppins font-bold  tracking-tight text-transparent mb-3">
               Full Stack Developer
             </span>
-            <p className="my-2 max-w-xl py-6  text-white font-thin tracking-wide  text-lg">
+            <p className="my-2 max-w-xl py-6 text-neutral-200 tracking-wide text-lg">
               {HERO_CONTENT}
             </p>
           </div>
@@ -27,11 +27,10 @@ const Hero = () => {
             <img
               src={pic}
               alt="h"
-              height={500}
-              width={500}
+             
               draggable="false"
               onContextMenu={(e) => e.preventDefault()}
-              className="rounded-2xl select-none pointer-events-auto"
+              className="  w-56 sm:w-64 md:w-72 lg:w-105 rounded-2xl select-none pointer-events-auto"
             />
           </div>
         </div>
