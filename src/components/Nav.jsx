@@ -7,11 +7,19 @@ import { motion } from "motion/react";
 
 const Nav = () => {
   return (
-    <nav className="mb-20 flex items-center justify-between py-6">
+    <nav className=" flex items-center justify-between  py-4 sm:py-6 lg:mb-20">
       <div className="flex shrink-0 items-center">
-        <img src={logo} alt="lo" className="mx-2 w-10" />
+        <motion.img 
+        initial={{x:100 , opacity:0}}
+        animate={{x:0 , opacity:1}}
+        transition={{duration:1}}
+        src={logo} alt="lo" className="mx-2 w-10" />
       </div>
-      <div className="m-8 flex items-center justify-center gap-4 text-2xl">
+      <motion.div 
+       initial={{x:-100 , opacity:0}}
+        animate={{x:0 , opacity:1}}
+        transition={{duration:1}}
+      className="m-8 flex items-center justify-center gap-4 text-2xl">
         <a
           href="https://www.linkedin.com/in/vishnubalakumar"
           target="_blank"
@@ -63,7 +71,7 @@ const Nav = () => {
             <FaXTwitter className="text-2xl hover:text-sky-400" />
           </motion.div>
         </a>
-      </div>
+      </motion.div>
     </nav>
   );
 };
